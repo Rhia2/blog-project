@@ -25,4 +25,4 @@ Route::get('posts','postscontroller@index' );
 Route::get('posts/create','postscontroller@create' );
 Route::post('/posts','postscontroller@store');
 Route::get('posts/register', 'postscontroller@register');
-
+Route::get('posts/login','postscontroller@login');

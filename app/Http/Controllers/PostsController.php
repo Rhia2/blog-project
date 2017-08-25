@@ -30,4 +30,8 @@ class PostsController extends Controller
     public function register(){
         return view('posts.register');
     }
+
+     public function login(){
+        return view('posts.login');
+    }
 }
