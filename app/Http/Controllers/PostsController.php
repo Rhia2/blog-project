@@ -26,4 +26,8 @@ class PostsController extends Controller
 
         return redirect('posts');
     }
+
+    public function register(){
+        return view('posts.register');
+    }
 }

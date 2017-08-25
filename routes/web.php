@@ -24,4 +24,5 @@ Route::get('create_model','blogcontroller@creat_model');
 Route::get('posts','postscontroller@index' );
 Route::get('posts/create','postscontroller@create' );
 Route::post('/posts','postscontroller@store');
+Route::get('posts/register', 'postscontroller@register');
 
