@@ -5,3 +5,4 @@
             <a href="#">Back to top</a>
         </p>
     </footer>
+    <script src="/js/bootstrap.min.js"></script>
